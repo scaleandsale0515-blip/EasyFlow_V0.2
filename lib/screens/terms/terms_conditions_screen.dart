@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
-import '../../utils/app_theme.dart';
 
 /// Fixed light-mode palette for this screen only.
 ///
@@ -32,7 +32,7 @@ class TermsConditionsScreen extends StatelessWidget {
     return Theme(
       data: ThemeData.light().copyWith(
         scaffoldBackgroundColor: _TermsColors.paper,
-        appBarTheme: const AppBarTheme(
+        appBarTheme: AppBarTheme(
           backgroundColor: _TermsColors.slab,
           foregroundColor: Colors.white,
           elevation: 0,
@@ -358,6 +358,3 @@ class _InfoRow extends StatelessWidget {
     );
   }
 }
-
-
-    
