@@ -71,7 +71,7 @@ class TermsConditionsScreen extends StatelessWidget {
               icon: Icons.email_outlined,
               label: 'Support Email',
               value: 'scaleandsale0515@gmail.com',
-              onTap: () => launchUrl(Uri.parse('mailto:scaleandsale0515@gmail.com')),
+              //onTap: () => launchUrl(Uri.parse('mailto:scaleandsale0515@gmail.com')),
             ),
             const SizedBox(height: 14),
             const _InfoRow(
